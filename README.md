@@ -1,16 +1,49 @@
-# React + Vite
+# 🎮 Rock Paper Scissors Game (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Rock, Paper, Scissors** game built using React.  
+Play against the CPU, track scores across rounds, and view your move history in real time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🎯 Player vs CPU gameplay  
+- 🔢 Live score tracking (round-based)  
+- 🏆 Win tracking across rounds  
+- 📜 Move history panel  
+- 🔄 Reset round & restart game  
+- 🎨 Modern UI with responsive layout  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Player selects Rock, Paper, or Scissors  
+- CPU randomly generates a move  
+- Scores update based on game rules  
+- First to reach 3 points wins the round  
+- Game continues with round tracking  
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Hooks - `useState`)  
+- JavaScript (ES6+)  
+- CSS (Flexbox + modern UI styling)  
+
+---
+
+## 🌐 Live Demo
+
+👉 https://smart-city-ai-citizen-dashboard-con.vercel.app/
+
+---
+
+## 📦 Setup
+
+```bash
+git clone <your-repo-link>
+cd <project-folder>
+npm install
+npm run dev
